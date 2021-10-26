@@ -1,0 +1,29 @@
+.mainContainer {
+    padding: 0px;
+    margin: 0px;
+}
+
+.boldText {
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.sooImage {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.devImage {
+    width: 400px;
+    padding: 50px 0;
+}
+
+.devImgContainer {
+    margin: 50px 0;
+    background-color: dodgerblue;
+}
+
+.skillIcons {
+    color: dodgerblue;
+    font-size: 5rem;
+}
