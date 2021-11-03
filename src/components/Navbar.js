@@ -1,14 +1,22 @@
 import React from "react"
-import {Navbar, Container, Nav, NavDropdown} from "react-bootstrap"
+import {Navbar, Container, Nav} from "react-bootstrap"
 
 export default function NavbarTop() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar
+                fixed="top"
+                collapseOnSelect
+                expand="lg"
+                bg="primary"
+                variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Nav.Link href="/" className="boldText">
+                        SOO
+                    </Nav.Link>
+                    {/* <Navbar.Brand href="/">
                         <p className="boldText">SOO HWANGBO</p>
-                    </Navbar.Brand>
+                    </Navbar.Brand> */}
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
