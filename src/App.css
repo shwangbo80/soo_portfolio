@@ -1,33 +1,38 @@
 .mainContainer {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .boldText {
-    font-weight: bold;
-    color: white;
+  font-weight: bold;
+  color: white;
 }
 
 .boldText:hover {
-    color: lightgray;
+  color: lightgray;
 }
 
 .sooImage {
-    width: 200px;
-    border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .devImage {
-    width: 50%;
-    padding: 50px 0;
+  width: 50%;
+  padding: 50px 0;
 }
 
 .devImgContainer {
-    margin: 50px 0;
-    background-color: #f1f1f1;
+  margin: 50px 0;
+  background-color: #f1f1f1;
 }
 
 .skillIcons {
-    color: dodgerblue;
-    font-size: 5rem;
+  color: dodgerblue;
+  font-size: 5rem;
+}
+
+.about-text-container {
+  margin-left: auto;
+  margin-right: auto;
 }
