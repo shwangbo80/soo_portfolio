@@ -5,7 +5,7 @@ import {Mouse, CodeSlash, Gear} from "react-bootstrap-icons"
 export default function Home() {
   return (
     <div className="text-center mt-5 pt-3">
-      <h1 className="pt-5 mt-5">Designer, Fullstack Developer</h1>
+      <h1 className="pt-5 mt-5">Fullstack Developer</h1>
       <p className="">I design and code beautifully simple things.</p>
       <img src="./img/soo.jpg" alt="Soo" className="sooImage my-5"></img>
       <Container fluid className="devImgContainer py-5">
@@ -45,16 +45,16 @@ export default function Home() {
             <p>Adobe Illustrator</p>
             <p>Adobe XD</p>
             <p>Figma</p>
-            <p>Sketch</p>
           </Col>
           <Col>
             <CodeSlash className="skillIcons" />
             <p className="fw-bold text-dark mt-3">Frontend</p>
             <p>HTML</p>
             <p>CSS</p>
-            <p>bootstrap</p>
             <p>Javascript</p>
-            <p>React JS</p>
+            <p>bootstrap</p>
+            <p>React</p>
+            <p>React Native</p>
           </Col>
           <Col>
             <Gear className="skillIcons" />
@@ -62,6 +62,10 @@ export default function Home() {
             <p>Node JS</p>
             <p>Express</p>
             <p>MongoDB</p>
+            <p>Python</p>
+            <p>Django</p>
+            <p>Flask</p>
+            <p>Postgres</p>
           </Col>
         </Row>
       </Container>
@@ -69,37 +73,55 @@ export default function Home() {
         <h1 className="m-5">My Works</h1>
         <Row>
           <Col>
-            <a href="https://cafe.soohwangbo.com" target="_blank">
-              <p>Cafe</p>
-            </a>
-            <a href="https://airbnb.soohwangbo.com" target="_blank">
-              <p>Airbnb</p>
-            </a>
-            <a href="https://comic.soohwangbo.com" target="_blank">
-              <p>Marvel Comics</p>
-            </a>
+            <p>
+              <a href="https://cafe.soohwangbo.com" target="_blank">
+                Cafe
+              </a>
+            </p>
+            <p>
+              <a href="https://airbnb.soohwangbo.com" target="_blank">
+                Airbnb
+              </a>
+            </p>
+            <p>
+              <a href="https://comic.soohwangbo.com" target="_blank">
+                Marvel Comics
+              </a>
+            </p>
           </Col>
           <Col>
-            <a href="https://valorant.soohwangbo.com" target="_blank">
-              <p>Valorant</p>
-            </a>
-            <a href="https://camp.soohwangbo.com" target="_blank">
-              <p>Campsite</p>
-            </a>
-            <a href="https://marvel.soohwangbo.com" target="_blank">
-              <p>Marvel Characters</p>
-            </a>
+            <p>
+              <a href="https://valorant.soohwangbo.com" target="_blank">
+                Valorant
+              </a>
+            </p>
+            <p>
+              <a href="https://camp.soohwangbo.com" target="_blank">
+                Campsite
+              </a>
+            </p>
+            <p>
+              <a href="https://marvel.soohwangbo.com" target="_blank">
+                Marvel Characters
+              </a>
+            </p>
           </Col>
           <Col>
-            <a href="https://sb.soohwangbo.com" target="_blank">
-              <p>Starbucks</p>
-            </a>
-            <a href="https://nytimes.soohwangbo.com" target="_blank">
-              <p>NY Times</p>
-            </a>
-            <a href="https://simpsons.soohwangbo.com" target="_blank">
-              <p>Simpsons Quote Generator</p>
-            </a>
+            <p>
+              <a href="https://sb.soohwangbo.com" target="_blank">
+                Starbucks
+              </a>
+            </p>
+            <p>
+              <a href="https://news.soohwangbo.com" target="_blank">
+                News
+              </a>
+            </p>
+            <p>
+              <a href="https://simpsons.soohwangbo.com" target="_blank">
+                Simpsons Quote Generator
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>
