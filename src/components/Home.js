@@ -1,6 +1,6 @@
-import React from "react"
-import {Container, Row, Col, Image, Form} from "react-bootstrap"
-import {Mouse, CodeSlash, Gear} from "react-bootstrap-icons"
+import React from "react";
+import {Container, Row, Col, Image, Form} from "react-bootstrap";
+import {Mouse, CodeSlash, Gear} from "react-bootstrap-icons";
 
 export default function Home() {
   return (
@@ -108,8 +108,8 @@ export default function Home() {
           </Col>
           <Col>
             <p>
-              <a href="https://sb.soohwangbo.com" target="_blank">
-                Starbucks
+              <a href="https://weather.soohwangbo.com" target="_blank">
+                Weather
               </a>
             </p>
             <p>
@@ -149,5 +149,5 @@ export default function Home() {
         </Row>
       </Container>
     </div>
-  )
+  );
 }
