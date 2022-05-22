@@ -56,7 +56,7 @@ export default function Home() {
         data-aos-offset="200">
         <h1 className="m-5">My Skills</h1>
         <Row>
-          <Col>
+          <Col md={4} className="p-3">
             <Mouse className="skillIcons" />
             <p className="fw-bold text-dark mt-3 p-text">Design</p>
             <p>Adobe Photoshop</p>
@@ -64,7 +64,7 @@ export default function Home() {
             <p>Adobe XD</p>
             <p>Figma</p>
           </Col>
-          <Col>
+          <Col md={4} className="p-3">
             <CodeSlash className="skillIcons" />
             <p className="fw-bold text-dark mt-3 p-text">Frontend</p>
             <p>HTML</p>
@@ -74,7 +74,7 @@ export default function Home() {
             <p>React</p>
             <p>React Native</p>
           </Col>
-          <Col>
+          <Col md={4} className="p-3">
             <Gear className="skillIcons" />
             <p className="fw-bold text-dark mt-3 p-text">Backend</p>
             <p>Node JS</p>
@@ -88,7 +88,7 @@ export default function Home() {
         </Row>
       </Container>
       <Container
-        className="my-5"
+        className="mb-5"
         data-aos="fade-in"
         data-aos-duration="2000"
         data-aos-offset="200">
@@ -111,11 +111,11 @@ export default function Home() {
                 <p className="link-text">Marvel Comics</p>
               </div>
             </a>
-            <a href="https://github.com/shwangbo80/directory" target="_blank">
+            {/* <a href="https://github.com/shwangbo80/directory" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
                 <p className="link-text">MERN Directorys</p>
               </div>
-            </a>
+            </a> */}
           </Col>
           <Col md={4}>
             <a href="https://valorant.soohwangbo.com" target="_blank">
@@ -133,11 +133,11 @@ export default function Home() {
                 <p className="link-text">Marvel Characters</p>
               </div>
             </a>
-            <a href="https://github.com/shwangbo80/boba_recipe" target="_blank">
+            {/* <a href="https://github.com/shwangbo80/boba_recipe" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
                 <p className="link-text">Boba recipe</p>
               </div>
-            </a>
+            </a> */}
           </Col>
           <Col md={4}>
             <a
@@ -158,11 +158,11 @@ export default function Home() {
                 <p className="link-text">Simpsons Quote Generator</p>
               </div>
             </a>
-            <a href="https://github.com/shwangbo80/sooflix" target="_blank">
+            {/* <a href="https://github.com/shwangbo80/sooflix" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
                 <p className="link-text">Netflix</p>
               </div>
-            </a>
+            </a> */}
           </Col>
         </Row>
         <Row>
