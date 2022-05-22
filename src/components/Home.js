@@ -1,26 +1,40 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Container, Row, Col, Image, Form} from "react-bootstrap";
 import {Mouse, CodeSlash, Gear} from "react-bootstrap-icons";
+import Contact from "./Contact";
+import AOS from "aos";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
-    <div className="text-center mt-5 pt-3">
-      <h1 className="pt-5 mt-5">Fullstack Developer</h1>
-      <p className="">I design and code beautifully simple things.</p>
-      <img src="./img/soo.jpg" alt="Soo" className="sooImage my-5"></img>
-      <Container fluid className="devImgContainer py-5">
-        <Row>
+    <Container fluid className="text-center px-0 mt-5 pt-3">
+      <div className="header-container align-items-center d-flex justify-content-center">
+        <div>
+          <h1 className="pt-5 mt-5 display-3">Soo_Hwangbo</h1>
+          <h2 className="mt-3">Fullstack Developer</h2>
+          <p className="mt-5 p-text">
+            "I design and code beautifully simple things."
+          </p>
+          <img src="./img/soo.jpg" alt="Soo" className="sooImage my-5"></img>
+        </div>
+      </div>
+      <Container fluid className="about-container">
+        <Row data-aos="fade-in" data-aos-duration="2000" data-aos-offset="200">
           <Col></Col>
-          <Col lg={6}>
-            <h4 className="">Hi, I’m Soo. Nice to meet you.</h4>
+          <Col md={12} lg={10} xl={10} xxl={8}>
+            <h2 className="">"Hi, I’m Soo. Nice to meet you."</h2>
             <Row>
               <Col></Col>
-              <Col xl={10}>
+              <Col md={12} lg={10} xl={10} xxl={8}>
                 <Image
                   src="./img/devStack.png"
                   alt="developer tools"
                   className="devImage"></Image>
-                <p className="px-5 about-text-container">
+                <p className="px-5 about-text-container p-text">
                   Since beginning my journey as a freelance designer nearly 10
                   years ago, I've done remote work for agencies, consulted for
                   startups, and collaborated with talented people to create
@@ -35,12 +49,16 @@ export default function Home() {
           <Col></Col>
         </Row>
       </Container>
-      <Container className="my-5">
+      <Container
+        className="skills-container"
+        data-aos="fade-in"
+        data-aos-duration="2000"
+        data-aos-offset="200">
         <h1 className="m-5">My Skills</h1>
         <Row>
           <Col>
             <Mouse className="skillIcons" />
-            <p className="fw-bold text-dark mt-3">Design</p>
+            <p className="fw-bold text-dark mt-3 p-text">Design</p>
             <p>Adobe Photoshop</p>
             <p>Adobe Illustrator</p>
             <p>Adobe XD</p>
@@ -48,7 +66,7 @@ export default function Home() {
           </Col>
           <Col>
             <CodeSlash className="skillIcons" />
-            <p className="fw-bold text-dark mt-3">Frontend</p>
+            <p className="fw-bold text-dark mt-3 p-text">Frontend</p>
             <p>HTML</p>
             <p>CSS</p>
             <p>Javascript</p>
@@ -58,7 +76,7 @@ export default function Home() {
           </Col>
           <Col>
             <Gear className="skillIcons" />
-            <p className="fw-bold text-dark mt-3">Backend</p>
+            <p className="fw-bold text-dark mt-3 p-text">Backend</p>
             <p>Node JS</p>
             <p>Express</p>
             <p>MongoDB</p>
@@ -69,85 +87,90 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="my-5">
+      <Container
+        className="my-5"
+        data-aos="fade-in"
+        data-aos-duration="2000"
+        data-aos-offset="200">
         <h1 className="m-5">My Works</h1>
         <Row>
-          <Col>
-            <p>
-              <a href="https://cafe.soohwangbo.com" target="_blank">
-                Cafe
-              </a>
-            </p>
-            <p>
-              <a href="https://airbnb.soohwangbo.com" target="_blank">
-                Airbnb
-              </a>
-            </p>
-            <p>
-              <a href="https://comic.soohwangbo.com" target="_blank">
-                Marvel Comics
-              </a>
-            </p>
+          <Col md={4}>
+            <a href="https://cafe.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center animate__animated animate__bounce">
+                <p className="link-text">Cafe</p>
+              </div>
+            </a>
+
+            <a href="https://airbnb.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Airbnb</p>
+              </div>
+            </a>
+            <a href="https://comic.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Marvel Comics</p>
+              </div>
+            </a>
+            <a href="https://github.com/shwangbo80/directory" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">MERN Directorys</p>
+              </div>
+            </a>
           </Col>
-          <Col>
-            <p>
-              <a href="https://valorant.soohwangbo.com" target="_blank">
-                Valorant
-              </a>
-            </p>
-            <p>
-              <a href="https://camp.soohwangbo.com" target="_blank">
-                Campsite
-              </a>
-            </p>
-            <p>
-              <a href="https://marvel.soohwangbo.com" target="_blank">
-                Marvel Characters
-              </a>
-            </p>
+          <Col md={4}>
+            <a href="https://valorant.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Valorant</p>
+              </div>
+            </a>
+            <a href="https://camp.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Campsite</p>
+              </div>
+            </a>
+            <a href="https://marvel.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Marvel Characters</p>
+              </div>
+            </a>
+            <a href="https://github.com/shwangbo80/boba_recipe" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Boba recipe</p>
+              </div>
+            </a>
           </Col>
-          <Col>
-            <p>
-              <a href="https://weather.soohwangbo.com" target="_blank">
-                Weather
-              </a>
-            </p>
-            <p>
-              <a href="https://news.soohwangbo.com" target="_blank">
-                News
-              </a>
-            </p>
-            <p>
-              <a href="https://simpsons.soohwangbo.com" target="_blank">
-                Simpsons Quote Generator
-              </a>
-            </p>
+          <Col md={4}>
+            <a
+              className="my-works"
+              href="https://weather.soohwangbo.com"
+              target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Weather</p>
+              </div>
+            </a>
+            <a href="https://news.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">News</p>
+              </div>
+            </a>
+            <a href="https://simpsons.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Simpsons Quote Generator</p>
+              </div>
+            </a>
+            <a href="https://github.com/shwangbo80/sooflix" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Netflix</p>
+              </div>
+            </a>
           </Col>
         </Row>
-      </Container>
-      <Container className="my-5">
-        <h1 className="m-5">Lets Talk</h1>
         <Row>
-          <Col md={2}></Col>
-          <Col md={8}>
-            <Form>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlInput1">
-                <Form.Label>Emai</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-              </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
-            </Form>
+          <Col>
+            <Contact />
           </Col>
-          <Col md={2}></Col>
         </Row>
       </Container>
-    </div>
+    </Container>
   );
 }
