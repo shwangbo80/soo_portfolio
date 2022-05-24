@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Container, Row, Col, Image, Form} from "react-bootstrap";
+import {Container, Row, Col, Image} from "react-bootstrap";
 import {Mouse, CodeSlash, Gear} from "react-bootstrap-icons";
 import Contact from "./Contact";
 import AOS from "aos";
@@ -111,33 +111,29 @@ export default function Home() {
                 <p className="link-text">Marvel Comics</p>
               </div>
             </a>
-            {/* <a href="https://github.com/shwangbo80/directory" target="_blank">
+            <a href="https://bubbles.soohwangbo.com" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
-                <p className="link-text">MERN Directorys</p>
-              </div>
-            </a> */}
-          </Col>
-          <Col md={4}>
-            <a href="https://valorant.soohwangbo.com" target="_blank">
-              <div className="works-container d-flex align-items-center justify-content-center">
-                <p className="link-text">Valorant</p>
+                <p className="link-text">Bubbles</p>
               </div>
             </a>
+          </Col>
+          <Col md={4}>
             <a href="https://camp.soohwangbo.com" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
                 <p className="link-text">Campsite</p>
               </div>
             </a>
+            <a href="https://valorant.soohwangbo.com" target="_blank">
+              <div className="works-container d-flex align-items-center justify-content-center">
+                <p className="link-text">Valorant</p>
+              </div>
+            </a>
+
             <a href="https://marvel.soohwangbo.com" target="_blank">
               <div className="works-container d-flex align-items-center justify-content-center">
                 <p className="link-text">Marvel Characters</p>
               </div>
             </a>
-            {/* <a href="https://github.com/shwangbo80/boba_recipe" target="_blank">
-              <div className="works-container d-flex align-items-center justify-content-center">
-                <p className="link-text">Boba recipe</p>
-              </div>
-            </a> */}
           </Col>
           <Col md={4}>
             <a

@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .p-text {
   font-size: 24px;
 }
@@ -98,6 +102,6 @@
   color: white;
 }
 
-a {
-  text-decoration: none;
+.email-response {
+  margin: 200px 0 200px 0;
 }
