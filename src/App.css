@@ -2,6 +2,16 @@ a {
   text-decoration: none;
 }
 
+.navigation-link {
+  color: lightgray;
+  padding: 0 20px 0 0;
+  font-size: 20px;
+}
+
+.navigation-link:hover {
+  color: white;
+}
+
 .p-text {
   font-size: 24px;
 }
@@ -26,7 +36,6 @@ a {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -56px;
-  margin-bottom: 50px;
 }
 
 .hero-container {
@@ -51,7 +60,7 @@ a {
 }
 
 .skills-container {
-  padding: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
   background-color: #f1f1f1;
 }
 

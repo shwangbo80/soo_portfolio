@@ -13,9 +13,15 @@ export default function NavbarTop() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#works">Works</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <a className="navigation-link" href="#about">
+                About
+              </a>
+              <a className="navigation-link" href="#works">
+                Works
+              </a>
+              <a className="navigation-link" href="#contact">
+                Contact
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

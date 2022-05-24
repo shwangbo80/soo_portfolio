@@ -44,7 +44,7 @@ export default function Contact() {
     return (
       <Row>
         <Col md={3}></Col>
-        <Col md={6} className="contact-container px-5">
+        <Col md={6} className="contact-container px-5 mb-5">
           <h1 className="m-5">Lets chat</h1>
           <form ref={form} onSubmit={sendEmail}>
             <Form.Group controlId="validationCustomUsername">

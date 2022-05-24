@@ -28,7 +28,6 @@ export default function Main() {
             <Contact />
           </Route>
         </Switch>
-        <Footer />
       </Container>
     </Router>
   );
