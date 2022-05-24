@@ -26,9 +26,10 @@ a {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -56px;
+  margin-bottom: 50px;
 }
 
-.header-container {
+.hero-container {
   color: white;
   background-color: #3a86ff;
   padding: 100px 0 100px 0;
@@ -47,11 +48,11 @@ a {
 
 .about-container {
   padding: 100px 0 100px 0;
-  background-color: #f1f1f1;
 }
 
 .skills-container {
   padding: 100px 0 100px 0;
+  background-color: #f1f1f1;
 }
 
 .skillIcons {

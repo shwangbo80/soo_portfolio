@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
   return (
     <Container fluid className="text-center px-0 mt-5 pt-3">
-      <div className="header-container align-items-center d-flex justify-content-center">
+      <div className="hero-container align-items-center d-flex justify-content-center">
         <div>
           <h1 className="pt-5 mt-5 display-3">Soo_Hwangbo</h1>
           <h2 className="mt-3">Fullstack Developer</h2>
@@ -22,7 +22,8 @@ export default function Home() {
           <img src="./img/soo.jpg" alt="Soo" className="sooImage my-5"></img>
         </div>
       </div>
-      <Container fluid className="about-container">
+      <div id="about"></div>
+      <Container fluid className="mt-5 about-container">
         <Row data-aos="fade-in" data-aos-duration="2000" data-aos-offset="200">
           <Col></Col>
           <Col md={12} lg={10} xl={10} xxl={8}>
@@ -50,6 +51,7 @@ export default function Home() {
         </Row>
       </Container>
       <Container
+        fluid
         className="skills-container"
         data-aos="fade-in"
         data-aos-duration="2000"
@@ -87,8 +89,9 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      <div id="works"></div>
       <Container
-        className="mb-5"
+        className="py-5 my-5"
         data-aos="fade-in"
         data-aos-duration="2000"
         data-aos-offset="200">
@@ -154,15 +157,10 @@ export default function Home() {
                 <p className="link-text">Simpsons Quote Generator</p>
               </div>
             </a>
-            {/* <a href="https://github.com/shwangbo80/sooflix" target="_blank">
-              <div className="works-container d-flex align-items-center justify-content-center">
-                <p className="link-text">Netflix</p>
-              </div>
-            </a> */}
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col id="contact">
             <Contact />
           </Col>
         </Row>
