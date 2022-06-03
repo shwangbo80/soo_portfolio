@@ -1,103 +1,117 @@
+a {
+    text-decoration: none;
+}
+
 .p-text {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .bg-orange {
-  background-color: #fb5607;
+    background-color: #fb5607;
 }
 
 .bg-red {
-  background-color: #ff006e;
+    background-color: #ff006e;
 }
 
 .bg-purple {
-  background-color: #8338ec;
+    background-color: #8338ec;
 }
 
 .bg-blue {
-  background-color: #3a86ff;
+    background-color: #3a86ff;
 }
 .mainContainer {
-  padding: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: -56px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -56px;
 }
 
 .header-container {
-  color: white;
-  background-color: #3a86ff;
-  padding: 100px 0 100px 0;
-  height: 100vh;
+    color: white;
+    background-color: #3a86ff;
+    padding: 100px 0 100px 0;
+    height: 100vh;
 }
 
 .sooImage {
-  width: 200px;
-  border-radius: 50%;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .devImage {
-  width: 50%;
-  padding: 50px 0;
+    width: 50%;
+    padding: 50px 0;
 }
 
 .about-container {
-  padding: 100px 0 100px 0;
-  background-color: #f1f1f1;
+    padding: 100px 0 100px 0;
+    background-color: #f1f1f1;
 }
 
 .skills-container {
-  padding: 100px 0 100px 0;
+    padding: 100px 0 100px 0;
 }
 
 .skillIcons {
-  color: dodgerblue;
-  font-size: 5rem;
+    color: dodgerblue;
+    font-size: 5rem;
 }
 
 .about-text-container {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-container {
-  padding: 100px 0 100px 0;
+    padding: 100px 0 100px 0;
 }
 
 .footer-container {
-  padding: 25px 0 25px 0;
+    padding: 25px 0 25px 0;
 }
 
 .info-field {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .text-field {
-  height: 200px;
-  resize: none;
-  font-size: 20px;
+    height: 200px;
+    resize: none;
+    font-size: 20px;
 }
 
 .works-container {
-  font-size: 24px;
-  bottom: 50px;
-  height: 200px;
-  margin-bottom: 25px;
-  border-radius: 20px;
-  transition: 750ms;
-  background-color: #3a86ff;
+    font-size: 24px;
+    bottom: 50px;
+    height: 200px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    transition: 750ms;
+    background-color: #3a86ff;
 }
 
 .works-container:hover {
-  font-size: 28px;
-  transition: 750ms;
-  transform: translateY(-10px);
-  background-color: #023e8a;
-}
-.link-text {
-  color: white;
+    font-size: 28px;
+    transition: 750ms;
+    transform: translateY(-10px);
+    background-color: #023e8a;
 }
 
-a {
-  text-decoration: none;
+.work-title-text {
+    font-size: 30px;
+    color: white;
+}
+
+.link-text {
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.link-text:hover {
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 1s;
 }
