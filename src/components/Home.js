@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Container, Row, Col, Image} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
 import Hero from "./Hero";
 import About from "./About";

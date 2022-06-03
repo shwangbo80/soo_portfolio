@@ -18,12 +18,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://cafe.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/cafe_portfolio"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -41,12 +43,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://airbnb.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/airbnb"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -63,13 +67,15 @@ export default function Works() {
                             <div>
                                 <a
                                     className="link-text px-2"
-                                    href="http://comics.soohwangbo.com"
+                                    href="http://comic.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/marvel-comics-app"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -87,12 +93,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://bubbles.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/bubbles"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -110,12 +118,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://camp.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/nucampsite"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -131,12 +141,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://valorant.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/valorant-portfolio"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -154,12 +166,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://marvel.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/marvelApp"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -175,12 +189,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://pregame.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/group_project_1"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -196,12 +212,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://weather.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/weather-app"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -219,12 +237,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://news.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/news"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -240,12 +260,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://simpsons.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/simpsonslApp"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>
@@ -261,12 +283,14 @@ export default function Works() {
                                 <a
                                     className="link-text px-2"
                                     href="http://netflix.soohwangbo.com"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Link
                                 </a>
                                 <a
                                     className="link-text px-2"
                                     href="https://github.com/shwangbo80/netflix_clone_client"
+                                    target="_blank"
                                     rel="noreferrer">
                                     Github
                                 </a>

@@ -14,7 +14,6 @@ export default function Contact() {
     const form = useRef();
 
     const [emailSent, setEmailSent] = useState(false);
-    const [validated, setValidated] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
