@@ -18,17 +18,16 @@ export default function Main() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
+          <Route path="#about">
             <About />
           </Route>
-          <Route path="/works">
+          <Route path="#works">
             <Works />
           </Route>
-          <Route path="/contact">
+          <Route path="#contact">
             <Contact />
           </Route>
         </Switch>
-        <Footer />
       </Container>
     </Router>
   );

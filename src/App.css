@@ -1,5 +1,19 @@
 a {
+<<<<<<< HEAD
     text-decoration: none;
+=======
+  text-decoration: none;
+}
+
+.navigation-link {
+  color: lightgray;
+  padding: 0 20px 0 0;
+  font-size: 20px;
+}
+
+.navigation-link:hover {
+  color: white;
+>>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
 }
 
 .p-text {
@@ -28,11 +42,19 @@ a {
     margin-top: -56px;
 }
 
+<<<<<<< HEAD
 .header-container {
     color: white;
     background-color: #3a86ff;
     padding: 100px 0 100px 0;
     height: 100vh;
+=======
+.hero-container {
+  color: white;
+  background-color: #3a86ff;
+  padding: 100px 0 100px 0;
+  height: 100vh;
+>>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
 }
 
 .sooImage {
@@ -46,12 +68,21 @@ a {
 }
 
 .about-container {
+<<<<<<< HEAD
     padding: 100px 0 100px 0;
     background-color: #f1f1f1;
 }
 
 .skills-container {
     padding: 100px 0 100px 0;
+=======
+  padding: 100px 0 100px 0;
+}
+
+.skills-container {
+  padding: 50px 0 50px 0;
+  background-color: #f1f1f1;
+>>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
 }
 
 .skillIcons {
@@ -110,8 +141,13 @@ a {
     transition: 1s;
 }
 
+<<<<<<< HEAD
 .link-text:hover {
     font-weight: bolder;
     font-size: 20px;
     transition: 1s;
+=======
+.email-response {
+  margin: 200px 0 200px 0;
+>>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
 }
