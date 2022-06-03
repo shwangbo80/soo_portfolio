@@ -1,19 +1,19 @@
 a {
-<<<<<<< HEAD
     text-decoration: none;
-=======
-  text-decoration: none;
+}
+
+p {
+    font-size: 20px;
 }
 
 .navigation-link {
-  color: lightgray;
-  padding: 0 20px 0 0;
-  font-size: 20px;
+    color: lightgray;
+    padding: 0 20px 0 0;
+    font-size: 20px;
 }
 
 .navigation-link:hover {
-  color: white;
->>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
+    color: white;
 }
 
 .p-text {
@@ -42,19 +42,22 @@ a {
     margin-top: -56px;
 }
 
-<<<<<<< HEAD
 .header-container {
     color: white;
     background-color: #3a86ff;
     padding: 100px 0 100px 0;
     height: 100vh;
-=======
+}
+
 .hero-container {
-  color: white;
-  background-color: #3a86ff;
-  padding: 100px 0 100px 0;
-  height: 100vh;
->>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
+    color: white;
+    background-color: #3a86ff;
+    padding: 100px 0 100px 0;
+    height: 100vh;
+}
+
+.hero-text {
+    margin-top: 100px;
 }
 
 .sooImage {
@@ -68,21 +71,12 @@ a {
 }
 
 .about-container {
-<<<<<<< HEAD
+    padding: 100px 0 100px 0;
+}
+
+.skills-container {
     padding: 100px 0 100px 0;
     background-color: #f1f1f1;
-}
-
-.skills-container {
-    padding: 100px 0 100px 0;
-=======
-  padding: 100px 0 100px 0;
-}
-
-.skills-container {
-  padding: 50px 0 50px 0;
-  background-color: #f1f1f1;
->>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
 }
 
 .skillIcons {
@@ -114,40 +108,40 @@ a {
 }
 
 .works-container {
-    font-size: 24px;
-    bottom: 50px;
+    padding: 100px 0 0px 0;
+}
+
+.project-container {
     height: 200px;
     margin-bottom: 25px;
+    padding: 100px 0 100px 0;
     border-radius: 20px;
     transition: 750ms;
     background-color: #3a86ff;
 }
 
-.works-container:hover {
-    font-size: 28px;
+.project-container:hover {
     transition: 750ms;
     transform: translateY(-10px);
     background-color: #023e8a;
 }
 
-.work-title-text {
-    font-size: 30px;
+.works-title-text {
+    font-size: 24px;
+    font-weight: bold;
     color: white;
 }
 
 .link-text {
-    color: white;
-    font-size: 20px;
+    color: lightgray;
+    font-size: 18px;
     transition: 1s;
 }
 
-<<<<<<< HEAD
 .link-text:hover {
-    font-weight: bolder;
-    font-size: 20px;
+    color: yellow;
     transition: 1s;
-=======
+}
 .email-response {
-  margin: 200px 0 200px 0;
->>>>>>> f35f8a7a5dab1a3e9971c290b5f5427c194c0935
+    margin: 200px 0 200px 0;
 }
